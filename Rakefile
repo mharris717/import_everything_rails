@@ -11,6 +11,7 @@ begin
     gem.homepage = "http://github.com/mharris717/import_everything_rails"
     gem.authors = ["Mike Harris"]
     gem.add_development_dependency "rspec"
+    gem.files = Dir["{lib}/**/*", "{app}/**/*", "{config}/**/*"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

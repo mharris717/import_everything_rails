@@ -1,3 +1,3 @@
 module ImportEverythingRails
-  require 'authr/engine' if defined?(Rails)
+  require 'import_everything_rails/engine' if defined?(Rails)
 end
